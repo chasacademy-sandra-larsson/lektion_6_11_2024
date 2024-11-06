@@ -1,0 +1,42 @@
+{
+    "movies": [
+        {
+            "title":   "The Matrix",
+            "director": "The Wachowskis"
+        },
+        {
+            "title": "The Matrix Reloaded",
+            "director": "The Wachowskis"
+        },
+        {
+            "title": "The Matrix Revolutions",
+            "director": "The Wachowskis"
+        },
+        {
+            "title": "The Matrix Resurrections",
+            "director": "Lana Wachowski"
+        },
+        {
+            "title": "The Matrix Reloaded",
+            "director": "The Wachowskis"
+        }
+    ],
+    "books": [
+        {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald"
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee"
+        },
+        {
+            "title": "1984",
+            "author": "George Orwell"
+        },  
+        {
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen"
+        }
+    ]
+}   

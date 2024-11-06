@@ -1,0 +1,11 @@
+.pokemons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.pokemon-card {
+    border: 1px solid black;
+    padding: 10px;
+}

@@ -1,27 +1,20 @@
-[
-    {
-      "id": 1,
-      "text": "Write project proposal",
-      "completed": false
-    },
-    {
-      "id": 2,
-      "text": "Review team's code",
-      "completed": true
-    },
-    {
-      "id": 3,
-      "text": "Prepare presentation slides",
-      "completed": false
-    },
-    {
-      "id": 4,
-      "text": "Send email to stakeholders",
-      "completed": true
-    },
-    {
-      "id": 5,
-      "text": "Update project documentation",
-      "completed": false
-    }
+{
+  "todos": [
+      {
+        "id": "1",
+        "text": "feed the dog",
+        "completed": "false"
+      },
+      {
+        "id": "2",
+        "text": "feed the cat",
+        "completed": "false"
+      },
+      {
+        "id": "3",
+        "text": "feed the bird",
+        "completed": "false"
+      }
+
   ]
+}

@@ -1,6 +1,6 @@
 const section = document.getElementById("pokemons");
 
-const url = "https://pokeapi.co/api/v2/pokemon/"
+const url = "https://pokeapi.co/api/v2/pokemon/?limit=20&offset=20"
 
 
 
@@ -52,11 +52,18 @@ async function displayCardPokemons() {
         section.appendChild(card);
 
         const pokemonDetails = await getPokemonDetails(pokemon.name);
-        console.log(pokemonDetails)
+        //console.log(pokemonDetails)
 
         const image = document.createElement("img");
         image.src = pokemonDetails.sprites.front_default;
-        card.appendChild(image)
+
+
+        const types = pokemonDetails.types;
+        types.forEach((type) => {
+            const p = document.createElement("p");
+            p.textContent = type.type.name;
+            card.appendChild(p);
+        })
     }
 
 }
